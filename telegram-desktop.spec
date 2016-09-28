@@ -1,6 +1,6 @@
 Summary:	Telegram is a new era of messaging
 Name:		telegram-desktop
-Version:	0.10.7
+Version:	0.10.8
 Release:	1%{?dist}
 
 Group:		Applications/Internet
@@ -75,19 +75,22 @@ appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{name}.ap
 %{_datadir}/appdata/%{name}.appdata.xml
 
 %changelog
-* Wed Sep 21 2016 rkady L. Shane <ashejn@russianfedora.pro> 0.10.7-1
+* Wed Sep 28 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.8-1
+- update to 0.10.8
+
+* Wed Sep 21 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.7-1
 - update to 0.10.7
 
-* Wed Sep 14 2016 rkady L. Shane <ashejn@russianfedora.pro> 0.10.6-1
+* Wed Sep 14 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.6-1
 - update to 0.10.6
 
-* Mon Aug  8 2016 rkady L. Shane <ashejn@russianfedora.pro> 0.10.1-2
+* Mon Aug  8 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.1-2
 - added appdata file
 
-* Mon Aug  8 2016 rkady L. Shane <ashejn@russianfedora.pro> 0.10.1-1
+* Mon Aug  8 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.1-1
 - update to 0.10.1
 
-* Thu Aug  4 2016 rkady L. Shane <ashejn@russianfedora.pro> 0.10.0-1
+* Thu Aug  4 2016 Arkady L. Shane <ashejn@russianfedora.pro> 0.10.0-1
 - update to 0.10.0
 
 * Mon Jun 27 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 0.9.56-1.R
